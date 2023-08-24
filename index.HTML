@@ -1,89 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculadora de hipoteca</title>
-  </head>
-  <body>
-    <form action="#" class="container">
-      <h1 class="titulo">Calcula tu hipoteca</h1>
-      <div class="cantidad">
-        <label class="label-cantidad" for="input-cantidad"
-          >Precio de la vivienda:</label
-        >
-        <span id="cantidad">0</span>
-        <span id="span-cantidad">&nbsp€</span>
-      </div>
-
-      <div class="slider">
-        <input
-          type="range"
-          class="form-range"
-          id="rango-cantidad"
-          min="20.000"
-          max="200.000"
-          value="0"
-        />
-      </div>
-      <div class="cuotas">
-        <label class="label-cuotas" for="span-cuotas">Plazo en años</label>
-        <span id="span-cuotas">0</span>
-      </div>
-      <div class="slider">
-        <input
-          type="range"
-          class="form-range"
-          id="rango-cuotas"
-          min="0"
-          max="30"
-          value="0"
-        />
-      </div>
-
-      <div class="porcentaje input-group mb-3">
-        <label class="label-porcentaje" for="input-porcentaje">Intereses</label>
-        <button
-          class="btn btn-outline-light btn-primary active"
-          id="btn1"
-          type="button"
-          value="2.00"
-        >
-          Fijo
-        </button>
-        <button
-          class="btn btn-outline-light btn-primary"
-          id="btn2"
-          type="button"
-          value="0.90"
-        >
-          Variable
-        </button>
-
-        <input
-          class="input"
-          type="text"
-          name=""
-          id="input-porcentaje"
-          placeholder="0.00"
-          aria-describedby="span-cantidad"
-        />
-        <span id="span-cantidad">&nbsp€</span>
-      </div>
-      <button type="submit" class="btn btn-primary" id="btn_calcular">
-        Calcular
-      </button>
-      <div class="importe">
-        <label class="label-importe" for="importe">Importe total</label>
-        <span class="input" id="importe">0.00</span>
-        <span id="span-importe">&nbsp€</span>
-      </div>
-    </form>
-  </body>
-  <script src="index.js"></script>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -112,21 +26,21 @@
   </head>
   <body>
     <nav class="navbar blue z-depth-4">
-      <h2>Calcula tu presupuesto de viajes</h2>
+      <h2>PRESUPUESTO DE VIAJES</h2>
     </nav>
 
     <div class="main">
       <form id="vacationCalc">
-        <input type="text" placeholder="Destino" id="destiny" required />
-        <input type="number" placeholder="Presupuesto" id="budget" required />
-        <input type="number" placeholder="Estadia" id="acomodation" required />
+        <input type="text" placeholder="Destino:" id="destiny" required />
+        <input type="number" placeholder="Presupuesto:" id="budget" required />
+        <input type="number" placeholder="Hotel:" id="acomodation" required />
         <input
           type="number"
-          placeholder="Transporte "
+          placeholder="Transporte: "
           id="transport"
           required
         />
-        <input type="number" placeholder="Comida" id="food" required />
+        <input type="number" placeholder="Comida:" id="food" required />
         <input type="submit" value="Calcular" class="btn blue z-depth-4" />
       </form>
     </div>
